@@ -350,7 +350,7 @@ while game_is_running:
             elif Game.board[j][i] == 2:
                 string_to_add += 'Y '
             else:
-                print("There is an error with the game board. Please run the prgram again.")
+                print("There is an error with the game board. Please run the program again.")
         print(string_to_add)
     game_won = winner(Game)
     if game_won == 1:
